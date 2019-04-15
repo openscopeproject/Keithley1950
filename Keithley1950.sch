@@ -1,0 +1,819 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x14 J?
+U 1 1 5CB3C43B
+P 10650 2150
+F 0 "J?" H 10568 1225 50  0000 C CNN
+F 1 "Conn_01x14" H 10568 1316 50  0000 C CNN
+F 2 "" H 10650 2150 50  0001 C CNN
+F 3 "~" H 10650 2150 50  0001 C CNN
+	1    10650 2150
+	1    0    0    1   
+$EndComp
+$Comp
+L Transistor_Array:ULN2003 U?
+U 1 1 5CB3EBAA
+P 7850 5600
+F 0 "U?" H 7850 6267 50  0000 C CNN
+F 1 "ULN2003" H 7850 6176 50  0000 C CNN
+F 2 "" H 7900 5050 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2003a.pdf" H 7950 5400 50  0001 C CNN
+	1    7850 5600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC595 U?
+U 1 1 5CB42628
+P 10200 5500
+F 0 "U?" H 10200 6281 50  0000 C CNN
+F 1 "74HC595" H 10200 6190 50  0000 C CNN
+F 2 "" H 10200 5500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 10200 5500 50  0001 C CNN
+	1    10200 5500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Comparator:LM339 U?
+U 1 1 5CB48104
+P 8750 1250
+F 0 "U?" H 8750 1617 50  0000 C CNN
+F 1 "LM339" H 8750 1526 50  0000 C CNN
+F 2 "" H 8700 1350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm339.pdf" H 8800 1450 50  0001 C CNN
+	1    8750 1250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Comparator:LM339 U?
+U 2 1 5CB4B240
+P 8750 1750
+F 0 "U?" H 8750 2025 50  0000 C CNN
+F 1 "LM339" H 8750 2026 50  0001 C CNN
+F 2 "" H 8700 1850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm339.pdf" H 8800 1950 50  0001 C CNN
+	2    8750 1750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Comparator:LM339 U?
+U 3 1 5CB4B8C8
+P 8750 2250
+F 0 "U?" H 8750 2525 50  0000 C CNN
+F 1 "LM339" H 8750 2526 50  0001 C CNN
+F 2 "" H 8700 2350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm339.pdf" H 8800 2450 50  0001 C CNN
+	3    8750 2250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Comparator:LM339 U?
+U 4 1 5CB4C8AA
+P 8750 2750
+F 0 "U?" H 8750 3025 50  0000 C CNN
+F 1 "LM339" H 8750 3026 50  0001 C CNN
+F 2 "" H 8700 2850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm339.pdf" H 8800 2950 50  0001 C CNN
+	4    8750 2750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Comparator:LM339 U?
+U 5 1 5CB4DACB
+P 8950 1250
+F 0 "U?" H 8908 1250 50  0001 L CNN
+F 1 "LM339" H 8908 1205 50  0001 L CNN
+F 2 "" H 8900 1350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm339.pdf" H 9000 1450 50  0001 C CNN
+	5    8950 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL082 U?
+U 1 1 5CB523B3
+P 5000 3850
+F 0 "U?" H 5000 4217 50  0000 C CNN
+F 1 "TL082" H 5000 4126 50  0000 C CNN
+F 2 "" H 5000 3850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 5000 3850 50  0001 C CNN
+	1    5000 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL082 U?
+U 2 1 5CB57F9E
+P 3200 5600
+F 0 "U?" H 3200 5967 50  0000 C CNN
+F 1 "TL082" H 3200 5876 50  0000 C CNN
+F 2 "" H 3200 5600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 3200 5600 50  0001 C CNN
+	2    3200 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL082 U?
+U 3 1 5CB5A515
+P 3200 5600
+F 0 "U?" H 3158 5646 50  0001 L CNN
+F 1 "TL082" H 3158 5555 50  0001 L CNN
+F 2 "" H 3200 5600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 3200 5600 50  0001 C CNN
+	3    3200 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL082 U?
+U 1 1 5CB5CADE
+P 3100 1100
+F 0 "U?" H 3100 1467 50  0000 C CNN
+F 1 "TL082" H 3100 1376 50  0000 C CNN
+F 2 "" H 3100 1100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 3100 1100 50  0001 C CNN
+	1    3100 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL082 U?
+U 2 1 5CB5E2B0
+P 1150 7450
+F 0 "U?" H 1150 7817 50  0000 C CNN
+F 1 "TL082" H 1150 7726 50  0000 C CNN
+F 2 "" H 1150 7450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 1150 7450 50  0001 C CNN
+	2    1150 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL082 U?
+U 3 1 5CB62411
+P 3100 1100
+F 0 "U?" H 3058 1146 50  0001 L CNN
+F 1 "TL082" H 3058 1055 50  0001 L CNN
+F 2 "" H 3100 1100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 3100 1100 50  0001 C CNN
+	3    3100 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS138 U?
+U 1 1 5CB65E45
+P 9050 4400
+F 0 "U?" H 9050 5181 50  0000 C CNN
+F 1 "74LS138" H 9050 5090 50  0000 C CNN
+F 2 "" H 9050 4400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS138" H 9050 4400 50  0001 C CNN
+	1    9050 4400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NJFET_DGS Q?
+U 1 1 5CB70F81
+P 1750 1100
+F 0 "Q?" V 2078 1100 50  0000 C CNN
+F 1 "Q_NJFET_DGS" V 1987 1100 50  0000 C CNN
+F 2 "" H 1950 1200 50  0001 C CNN
+F 3 "~" H 1750 1100 50  0001 C CNN
+	1    1750 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Q_NJFET_DGS Q?
+U 1 1 5CB727D8
+P 1750 1800
+F 0 "Q?" V 2078 1800 50  0000 C CNN
+F 1 "Q_NJFET_DGS" V 1987 1800 50  0000 C CNN
+F 2 "" H 1950 1900 50  0001 C CNN
+F 3 "~" H 1750 1800 50  0001 C CNN
+	1    1750 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Q_NJFET_DGS Q?
+U 1 1 5CB72C92
+P 4100 1450
+F 0 "Q?" V 4428 1450 50  0000 C CNN
+F 1 "Q_NJFET_DGS" V 4337 1450 50  0000 C CNN
+F 2 "" H 4300 1550 50  0001 C CNN
+F 3 "~" H 4100 1450 50  0001 C CNN
+	1    4100 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Q_NJFET_DGS Q?
+U 1 1 5CB7334B
+P 4100 2300
+F 0 "Q?" V 4428 2300 50  0000 C CNN
+F 1 "Q_NJFET_DGS" V 4337 2300 50  0000 C CNN
+F 2 "" H 4300 2400 50  0001 C CNN
+F 3 "~" H 4100 2300 50  0001 C CNN
+	1    4100 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Q_NJFET_DGS Q?
+U 1 1 5CB73982
+P 5500 5050
+F 0 "Q?" H 5691 5004 50  0000 L CNN
+F 1 "Q_NJFET_DGS" H 5691 5095 50  0000 L CNN
+F 2 "" H 5700 5150 50  0001 C CNN
+F 3 "~" H 5500 5050 50  0001 C CNN
+	1    5500 5050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Transistor_BJT:MMBT3906 Q?
+U 1 1 5CB7453B
+P 6150 4850
+F 0 "Q?" H 6341 4804 50  0000 L CNN
+F 1 "MMBT3906" H 6341 4895 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6350 4775 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 6150 4850 50  0001 L CNN
+	1    6150 4850
+	-1   0    0    1   
+$EndComp
+$Comp
+L project:AD736 U?
+U 1 1 5CB7ACEA
+P 6850 3900
+F 0 "U?" H 6850 4365 50  0000 C CNN
+F 1 "AD736" H 6850 4274 50  0000 C CNN
+F 2 "" H 6840 4270 50  0001 C CNN
+F 3 "" H 6840 4270 50  0001 C CNN
+	1    6850 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5CB7E043
+P 800 5150
+F 0 "J?" H 718 4825 50  0000 C CNN
+F 1 "Conn_01x02" H 718 4916 50  0000 C CNN
+F 2 "" H 800 5150 50  0001 C CNN
+F 3 "~" H 800 5150 50  0001 C CNN
+	1    800  5150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 5CB7E77D
+P 800 4350
+F 0 "J?" H 718 4025 50  0000 C CNN
+F 1 "Conn_01x03" H 718 4116 50  0000 C CNN
+F 2 "" H 800 4350 50  0001 C CNN
+F 3 "~" H 800 4350 50  0001 C CNN
+	1    800  4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L project:Relay_SP2P K?
+U 1 1 5CB8B124
+P 7200 5800
+F 0 "K?" H 7200 5893 50  0000 C CNN
+F 1 "Relay_SP2P" H 7000 5650 50  0001 L CNN
+F 2 "" V 7200 5800 50  0001 C CNN
+F 3 "~" V 7200 5800 50  0001 C CNN
+	1    7200 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L project:Relay_SP2P K?
+U 1 1 5CB8BE9C
+P 7200 5700
+F 0 "K?" H 7200 5793 50  0000 C CNN
+F 1 "Relay_SP2P" H 7000 5550 50  0001 L CNN
+F 2 "" V 7200 5700 50  0001 C CNN
+F 3 "~" V 7200 5700 50  0001 C CNN
+	1    7200 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L project:Relay_SP2P K?
+U 1 1 5CB8C0A8
+P 7200 5600
+F 0 "K?" H 7200 5693 50  0000 C CNN
+F 1 "Relay_SP2P" H 7000 5450 50  0001 L CNN
+F 2 "" V 7200 5600 50  0001 C CNN
+F 3 "~" V 7200 5600 50  0001 C CNN
+	1    7200 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L project:Relay_SP2P K?
+U 1 1 5CB8C2BE
+P 7200 5500
+F 0 "K?" H 7200 5593 50  0000 C CNN
+F 1 "Relay_SP2P" H 7000 5350 50  0001 L CNN
+F 2 "" V 7200 5500 50  0001 C CNN
+F 3 "~" V 7200 5500 50  0001 C CNN
+	1    7200 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L project:Relay_SP2P K?
+U 1 1 5CB8C528
+P 7200 5400
+F 0 "K?" H 7200 5493 50  0000 C CNN
+F 1 "Relay_SP2P" H 7000 5250 50  0001 L CNN
+F 2 "" V 7200 5400 50  0001 C CNN
+F 3 "~" V 7200 5400 50  0001 C CNN
+	1    7200 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L project:Relay_SP3P K?
+U 1 1 5CB8CA18
+P 7200 6000
+F 0 "K?" H 7200 6093 50  0000 C CNN
+F 1 "Relay_SP3P" H 7000 5850 50  0001 L CNN
+F 2 "" V 7250 6050 50  0001 C CNN
+F 3 "~" V 7250 6050 50  0001 C CNN
+	1    7200 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L project:Relay_SP3P K?
+U 1 1 5CB8D4BB
+P 7200 5900
+F 0 "K?" H 7200 5993 50  0000 C CNN
+F 1 "Relay_SP3P" H 7000 5750 50  0001 L CNN
+F 2 "" V 7250 5950 50  0001 C CNN
+F 3 "~" V 7250 5950 50  0001 C CNN
+	1    7200 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L project:Relay_SP3P K?
+U 2 1 5CB8D7AB
+P 2050 5350
+F 0 "K?" H 2050 5167 50  0000 C CNN
+F 1 "Relay_SP3P" H 1850 5200 50  0001 L CNN
+F 2 "" V 2100 5400 50  0001 C CNN
+F 3 "~" V 2100 5400 50  0001 C CNN
+	2    2050 5350
+	-1   0    0    1   
+$EndComp
+$Comp
+L project:Relay_SP3P K?
+U 2 1 5CB8FEF1
+P 1450 5350
+F 0 "K?" H 1450 5167 50  0000 C CNN
+F 1 "Relay_SP3P" H 1250 5200 50  0001 L CNN
+F 2 "" V 1500 5400 50  0001 C CNN
+F 3 "~" V 1500 5400 50  0001 C CNN
+	2    1450 5350
+	1    0    0    1   
+$EndComp
+$Comp
+L project:Relay_SP2P K?
+U 2 1 5CB906B5
+P 1750 3650
+F 0 "K?" H 1750 3775 50  0000 C CNN
+F 1 "Relay_SP2P" H 1550 3500 50  0001 L CNN
+F 2 "" V 1750 3650 50  0001 C CNN
+F 3 "~" V 1750 3650 50  0001 C CNN
+	2    1750 3650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L project:Relay_SP2P K?
+U 2 1 5CB91ED5
+P 1750 3150
+F 0 "K?" H 1750 3275 50  0000 C CNN
+F 1 "Relay_SP2P" H 1550 3000 50  0001 L CNN
+F 2 "" V 1750 3150 50  0001 C CNN
+F 3 "~" V 1750 3150 50  0001 C CNN
+	2    1750 3150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L project:Relay_SP2P K?
+U 2 1 5CB926CE
+P 1750 2650
+F 0 "K?" H 1750 2775 50  0000 C CNN
+F 1 "Relay_SP2P" H 1550 2500 50  0001 L CNN
+F 2 "" V 1750 2650 50  0001 C CNN
+F 3 "~" V 1750 2650 50  0001 C CNN
+	2    1750 2650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L project:Relay_SP2P K?
+U 2 1 5CB9314E
+P 3500 4700
+F 0 "K?" H 3500 4825 50  0000 C CNN
+F 1 "Relay_SP2P" H 3300 4550 50  0001 L CNN
+F 2 "" V 3500 4700 50  0001 C CNN
+F 3 "~" V 3500 4700 50  0001 C CNN
+	2    3500 4700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L project:Relay_SP2P K?
+U 2 1 5CB94D81
+P 3500 4250
+F 0 "K?" H 3500 4375 50  0000 C CNN
+F 1 "Relay_SP2P" H 3300 4100 50  0001 L CNN
+F 2 "" V 3500 4250 50  0001 C CNN
+F 3 "~" V 3500 4250 50  0001 C CNN
+	2    3500 4250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5CB96380
+P 2350 6100
+F 0 "D?" H 2350 6305 50  0000 C CNN
+F 1 "D_Small" H 2350 6214 50  0000 C CNN
+F 2 "" V 2350 6100 50  0001 C CNN
+F 3 "~" V 2350 6100 50  0001 C CNN
+	1    2350 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5CB985FA
+P 2350 5700
+F 0 "D?" H 2350 5495 50  0000 C CNN
+F 1 "D_Small" H 2350 5586 50  0000 C CNN
+F 2 "" V 2350 5700 50  0001 C CNN
+F 3 "~" V 2350 5700 50  0001 C CNN
+	1    2350 5700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5CB98939
+P 1850 4550
+F 0 "D?" H 1850 4345 50  0000 C CNN
+F 1 "D_Small" H 1850 4436 50  0000 C CNN
+F 2 "" V 1850 4550 50  0001 C CNN
+F 3 "~" V 1850 4550 50  0001 C CNN
+	1    1850 4550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5CB98E8E
+P 1700 4700
+F 0 "D?" H 1700 4495 50  0000 C CNN
+F 1 "D_Small" H 1700 4586 50  0000 C CNN
+F 2 "" V 1700 4700 50  0001 C CNN
+F 3 "~" V 1700 4700 50  0001 C CNN
+	1    1700 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5CB99231
+P 2000 4700
+F 0 "D?" H 2000 4495 50  0000 C CNN
+F 1 "D_Small" H 2000 4586 50  0000 C CNN
+F 2 "" V 2000 4700 50  0001 C CNN
+F 3 "~" V 2000 4700 50  0001 C CNN
+	1    2000 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5CB994DF
+P 2000 4400
+F 0 "D?" H 2000 4605 50  0000 C CNN
+F 1 "D_Small" H 2000 4514 50  0000 C CNN
+F 2 "" V 2000 4400 50  0001 C CNN
+F 3 "~" V 2000 4400 50  0001 C CNN
+	1    2000 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5CB999A9
+P 1700 4400
+F 0 "D?" H 1700 4605 50  0000 C CNN
+F 1 "D_Small" H 1700 4514 50  0000 C CNN
+F 2 "" V 1700 4400 50  0001 C CNN
+F 3 "~" V 1700 4400 50  0001 C CNN
+	1    1700 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5CB9B972
+P 2200 2350
+F 0 "R?" H 2259 2396 50  0000 L CNN
+F 1 "R_Small" H 2259 2305 50  0000 L CNN
+F 2 "" H 2200 2350 50  0001 C CNN
+F 3 "~" H 2200 2350 50  0001 C CNN
+	1    2200 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5CB9C495
+P 2200 2900
+F 0 "R?" H 2259 2946 50  0000 L CNN
+F 1 "R_Small" H 2259 2855 50  0000 L CNN
+F 2 "" H 2200 2900 50  0001 C CNN
+F 3 "~" H 2200 2900 50  0001 C CNN
+	1    2200 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5CB9C79B
+P 2200 3400
+F 0 "R?" H 2259 3446 50  0000 L CNN
+F 1 "R_Small" H 2259 3355 50  0000 L CNN
+F 2 "" H 2200 3400 50  0001 C CNN
+F 3 "~" H 2200 3400 50  0001 C CNN
+	1    2200 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5CB9CB8C
+P 2200 3900
+F 0 "R?" H 2259 3946 50  0000 L CNN
+F 1 "R_Small" H 2259 3855 50  0000 L CNN
+F 2 "" H 2200 3900 50  0001 C CNN
+F 3 "~" H 2200 3900 50  0001 C CNN
+	1    2200 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5CB9CE54
+P 2350 1200
+F 0 "R?" H 2409 1246 50  0000 L CNN
+F 1 "R_Small" H 2409 1155 50  0000 L CNN
+F 2 "" H 2350 1200 50  0001 C CNN
+F 3 "~" H 2350 1200 50  0001 C CNN
+	1    2350 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5CB9DFA1
+P 2000 1300
+F 0 "R?" V 1804 1300 50  0000 C CNN
+F 1 "R_Small" V 1895 1300 50  0000 C CNN
+F 2 "" H 2000 1300 50  0001 C CNN
+F 3 "~" H 2000 1300 50  0001 C CNN
+	1    2000 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5CB9E6FE
+P 2000 2000
+F 0 "R?" V 1804 2000 50  0000 C CNN
+F 1 "R_Small" V 1895 2000 50  0000 C CNN
+F 2 "" H 2000 2000 50  0001 C CNN
+F 3 "~" H 2000 2000 50  0001 C CNN
+	1    2000 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5CB9EC31
+P 4350 1650
+F 0 "R?" V 4154 1650 50  0000 C CNN
+F 1 "R_Small" V 4245 1650 50  0000 C CNN
+F 2 "" H 4350 1650 50  0001 C CNN
+F 3 "~" H 4350 1650 50  0001 C CNN
+	1    4350 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5CB9F858
+P 4350 2500
+F 0 "R?" V 4154 2500 50  0000 C CNN
+F 1 "R_Small" V 4245 2500 50  0000 C CNN
+F 2 "" H 4350 2500 50  0001 C CNN
+F 3 "~" H 4350 2500 50  0001 C CNN
+	1    4350 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5CB9FCE1
+P 2850 5000
+F 0 "R?" V 2654 5000 50  0000 C CNN
+F 1 "R_Small" V 2745 5000 50  0000 C CNN
+F 2 "" H 2850 5000 50  0001 C CNN
+F 3 "~" H 2850 5000 50  0001 C CNN
+	1    2850 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5CBA1211
+P 4050 5150
+F 0 "R?" V 3854 5150 50  0000 C CNN
+F 1 "R_Small" V 3945 5150 50  0000 C CNN
+F 2 "" H 4050 5150 50  0001 C CNN
+F 3 "~" H 4050 5150 50  0001 C CNN
+	1    4050 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5CBA173C
+P 4050 4700
+F 0 "R?" V 3854 4700 50  0000 C CNN
+F 1 "R_Small" V 3945 4700 50  0000 C CNN
+F 2 "" H 4050 4700 50  0001 C CNN
+F 3 "~" H 4050 4700 50  0001 C CNN
+	1    4050 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5CBA2121
+P 4050 4250
+F 0 "R?" V 3854 4250 50  0000 C CNN
+F 1 "R_Small" V 3945 4250 50  0000 C CNN
+F 2 "" H 4050 4250 50  0001 C CNN
+F 3 "~" H 4050 4250 50  0001 C CNN
+	1    4050 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5CBA2530
+P 5400 4050
+F 0 "R?" H 5341 4004 50  0000 R CNN
+F 1 "R_Small" H 5341 4095 50  0000 R CNN
+F 2 "" H 5400 4050 50  0001 C CNN
+F 3 "~" H 5400 4050 50  0001 C CNN
+	1    5400 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5CBA2B42
+P 5400 4350
+F 0 "R?" H 5341 4304 50  0000 R CNN
+F 1 "R_Small" H 5341 4395 50  0000 R CNN
+F 2 "" H 5400 4350 50  0001 C CNN
+F 3 "~" H 5400 4350 50  0001 C CNN
+	1    5400 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5CBA3019
+P 5550 4200
+F 0 "R?" H 5491 4154 50  0000 R CNN
+F 1 "R_Small" H 5491 4245 50  0000 R CNN
+F 2 "" H 5550 4200 50  0001 C CNN
+F 3 "~" H 5550 4200 50  0001 C CNN
+	1    5550 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5CBA33FE
+P 5850 4200
+F 0 "R?" H 5791 4154 50  0000 R CNN
+F 1 "R_Small" H 5791 4245 50  0000 R CNN
+F 2 "" H 5850 4200 50  0001 C CNN
+F 3 "~" H 5850 4200 50  0001 C CNN
+	1    5850 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5CBA7132
+P 5850 5300
+F 0 "R?" V 5654 5300 50  0000 C CNN
+F 1 "R_Small" V 5745 5300 50  0000 C CNN
+F 2 "" H 5850 5300 50  0001 C CNN
+F 3 "~" H 5850 5300 50  0001 C CNN
+	1    5850 5300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5CBA782D
+P 3350 1600
+F 0 "C?" H 3442 1646 50  0000 L CNN
+F 1 "C_Small" H 3442 1555 50  0000 L CNN
+F 2 "" H 3350 1600 50  0001 C CNN
+F 3 "~" H 3350 1600 50  0001 C CNN
+	1    3350 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5CBA96C6
+P 2400 5000
+F 0 "C?" V 2171 5000 50  0000 C CNN
+F 1 "C_Small" V 2262 5000 50  0000 C CNN
+F 2 "" H 2400 5000 50  0001 C CNN
+F 3 "~" H 2400 5000 50  0001 C CNN
+	1    2400 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5CBAA767
+P 4050 4400
+F 0 "C?" V 3821 4400 50  0000 C CNN
+F 1 "C_Small" V 3912 4400 50  0000 C CNN
+F 2 "" H 4050 4400 50  0001 C CNN
+F 3 "~" H 4050 4400 50  0001 C CNN
+	1    4050 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5CBAAF98
+P 4050 4850
+F 0 "C?" V 3821 4850 50  0000 C CNN
+F 1 "C_Small" V 3912 4850 50  0000 C CNN
+F 2 "" H 4050 4850 50  0001 C CNN
+F 3 "~" H 4050 4850 50  0001 C CNN
+	1    4050 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5CBAB881
+P 4700 4350
+F 0 "C?" H 4608 4304 50  0000 R CNN
+F 1 "C_Small" H 4608 4395 50  0000 R CNN
+F 2 "" H 4700 4350 50  0001 C CNN
+F 3 "~" H 4700 4350 50  0001 C CNN
+	1    4700 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:CP_Small C?
+U 1 1 5CBAC1EB
+P 9800 1000
+F 0 "C?" H 9888 1046 50  0000 L CNN
+F 1 "CP_Small" H 9888 955 50  0000 L CNN
+F 2 "" H 9800 1000 50  0001 C CNN
+F 3 "~" H 9800 1000 50  0001 C CNN
+	1    9800 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C?
+U 1 1 5CBAE200
+P 9800 1350
+F 0 "C?" H 9888 1396 50  0000 L CNN
+F 1 "CP_Small" H 9888 1305 50  0000 L CNN
+F 2 "" H 9800 1350 50  0001 C CNN
+F 3 "~" H 9800 1350 50  0001 C CNN
+	1    9800 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C?
+U 1 1 5CBAE457
+P 9800 1650
+F 0 "C?" H 9888 1696 50  0000 L CNN
+F 1 "CP_Small" H 9888 1605 50  0000 L CNN
+F 2 "" H 9800 1650 50  0001 C CNN
+F 3 "~" H 9800 1650 50  0001 C CNN
+	1    9800 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C?
+U 1 1 5CBAE6C4
+P 5700 3850
+F 0 "C?" V 5475 3850 50  0000 C CNN
+F 1 "CP_Small" V 5566 3850 50  0000 C CNN
+F 2 "" H 5700 3850 50  0001 C CNN
+F 3 "~" H 5700 3850 50  0001 C CNN
+	1    5700 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP_Small C?
+U 1 1 5CBAF613
+P 6000 3850
+F 0 "C?" V 6225 3850 50  0000 C CNN
+F 1 "CP_Small" V 6134 3850 50  0000 C CNN
+F 2 "" H 6000 3850 50  0001 C CNN
+F 3 "~" H 6000 3850 50  0001 C CNN
+	1    6000 3850
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC
