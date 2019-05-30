@@ -38,6 +38,12 @@ D TRMS to DC converter
 K trms converter
 $ENDCMP
 #
+$CMP AD8436
+D TRMS to DC converter
+K trms converter
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8436.pdf
+$ENDCMP
+#
 $CMP CTRIM_Small
 D Trimmable capacitor
 K trimmer variable capacitor
