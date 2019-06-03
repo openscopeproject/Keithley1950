@@ -31,7 +31,7 @@ U 1 1 5CB48104
 P 7500 1450
 F 0 "U2" H 7600 1800 50  0000 C CNN
 F 1 "LM339" H 7650 1700 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7450 1550 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 7450 1550 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm339.pdf" H 7550 1650 50  0001 C CNN
 	1    7500 1450
 	-1   0    0    -1  
@@ -42,7 +42,7 @@ U 2 1 5CB4B240
 P 7500 1900
 F 0 "U2" H 7500 2175 50  0000 C CNN
 F 1 "LM339" H 7500 2176 50  0001 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7450 2000 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 7450 2000 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm339.pdf" H 7550 2100 50  0001 C CNN
 	2    7500 1900
 	-1   0    0    -1  
@@ -53,7 +53,7 @@ U 3 1 5CB4B8C8
 P 7500 2350
 F 0 "U2" H 7500 2625 50  0000 C CNN
 F 1 "LM339" H 7500 2626 50  0001 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7450 2450 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 7450 2450 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm339.pdf" H 7550 2550 50  0001 C CNN
 	3    7500 2350
 	-1   0    0    -1  
@@ -64,7 +64,7 @@ U 4 1 5CB4C8AA
 P 7500 2800
 F 0 "U2" H 7500 3075 50  0000 C CNN
 F 1 "LM339" H 7500 3076 50  0001 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7450 2900 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 7450 2900 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm339.pdf" H 7550 3000 50  0001 C CNN
 	4    7500 2800
 	-1   0    0    -1  
@@ -75,7 +75,7 @@ U 5 1 5CB4DACB
 P 7700 1450
 F 0 "U2" H 7658 1450 50  0001 L CNN
 F 1 "LM339" H 7658 1405 50  0001 L CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7650 1550 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 7650 1550 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm339.pdf" H 7750 1650 50  0001 C CNN
 	5    7700 1450
 	1    0    0    -1  
@@ -2136,7 +2136,7 @@ U 6 1 5D0B7460
 P 7700 2800
 F 0 "U2" H 7700 3000 50  0001 L CNN
 F 1 "LM339" H 7700 2600 50  0001 L CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7650 2900 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 7650 2900 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm339.pdf" H 7750 3000 50  0001 C CNN
 	6    7700 2800
 	1    0    0    -1  
