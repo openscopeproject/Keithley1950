@@ -1,4 +1,4 @@
-update=6/23/2019 4:59:21 PM
+update=6/23/2019 7:02:22 PM
 version=1
 last_client=kicad
 [general]
@@ -246,7 +246,7 @@ Name=pwr
 Clearance=0.2
 TrackWidth=0.5
 ViaDiameter=1
-ViaDrill=0.6
+ViaDrill=0.5
 uViaDiameter=0.3
 uViaDrill=0.1
 dPairWidth=0.5
