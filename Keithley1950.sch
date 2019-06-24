@@ -5,11 +5,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "Keithley DMM Option 1950"
+Date "2019-06-23"
+Rev "A"
+Comp "OpenScopeProject"
+Comment1 "AC TRMS Volts and AC/DC AMPS board"
 Comment2 ""
 Comment3 ""
 Comment4 ""

@@ -10,6 +10,14 @@
   )
 
   (page A4)
+  (title_block
+    (title "Keithley DMM Option 1950")
+    (date 2019-06-23)
+    (rev A)
+    (company OpenScopeProjects)
+    (comment 1 "AC TRMS Volts and AC/DC AMPS board")
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
@@ -279,6 +287,7 @@
 
   (module project:oshw-logo (layer F.Cu) (tedit 5A092CCD) (tstamp 5D120064)
     (at 72.75 60.5)
+    (attr virtual)
     (fp_text reference LOGO*** (at 0 -7.5) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
@@ -836,6 +845,7 @@
   (module project:osp-logo (layer B.Cu) (tedit 5A092C4A) (tstamp 5D11FF7D)
     (at 71.5 91.5 180)
     (tags logo)
+    (attr virtual)
     (fp_text reference LOGO*** (at 0 4.7) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
