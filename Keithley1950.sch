@@ -1225,17 +1225,6 @@ Wire Wire Line
 	8400 2650 8400 2600
 Wire Wire Line
 	8400 2600 8600 2600
-$Comp
-L power:GNDA #PWR021
-U 1 1 5D0D8129
-P 7600 3100
-F 0 "#PWR021" H 7600 2850 50  0001 C CNN
-F 1 "GNDA" H 7605 2927 50  0000 C CNN
-F 2 "" H 7600 3100 50  0001 C CNN
-F 3 "" H 7600 3100 50  0001 C CNN
-	1    7600 3100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1400 3600 1400 3100
 Wire Wire Line
@@ -2744,5 +2733,16 @@ F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1650 7400 50  0001 C CNN
 F 3 "~" H 1650 7400 50  0001 C CNN
 	1    1650 7400
 	1    0    0    -1  
+$EndComp
+$Comp
+L project:-15V #PWR?
+U 1 1 5D20A15B
+P 7600 3100
+F 0 "#PWR?" H 7600 3200 50  0001 C CNN
+F 1 "-15V" H 7615 3273 50  0000 C CNN
+F 2 "" H 7600 3100 50  0001 C CNN
+F 3 "" H 7600 3100 50  0001 C CNN
+	1    7600 3100
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
